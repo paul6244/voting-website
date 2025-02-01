@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Vote for Your Favorite Option</h1>
+    <form id="votingForm">
+        <label>
+            <input type="radio" name="vote" value="Option 1">
+            <img src="image/Paul.jpg" alt="Paul" class="vote-image"> Paul
+        </label>
+        <label>
+            <input type="radio" name="vote" value="Option 2">
+            <img src="image/divine.jpg" alt="Divive" class="vote-image"> Divine
+        </label>
+        <label>
+            <input type="radio" name="vote" value="Option 3">
+            <img src="path/to/image3.jpg" alt="Chris" class="vote-image"> Chris
+        </label>
+        <button type="submit">Submit Vote</button>
+    </form>
+    <button id="showResults">Show Results</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
